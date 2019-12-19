@@ -1758,6 +1758,7 @@ public class MediaCodecVideoRenderer extends MediaCodecRenderer {
             case "XT1663":
             case "Z12_PRO":
             case "Z80":
+            case "htc_alpine_uhl":  
               deviceNeedsSetOutputSurfaceWorkaround = true;
               break;
             default:
@@ -1768,7 +1769,6 @@ public class MediaCodecVideoRenderer extends MediaCodecRenderer {
             case "AFTA":
             case "AFTN":
             case "JSN-L21":
-            case "U Play":  
               deviceNeedsSetOutputSurfaceWorkaround = true;
               break;
             default:
