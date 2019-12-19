@@ -1768,6 +1768,7 @@ public class MediaCodecVideoRenderer extends MediaCodecRenderer {
             case "AFTA":
             case "AFTN":
             case "JSN-L21":
+            case "U Play":  
               deviceNeedsSetOutputSurfaceWorkaround = true;
               break;
             default:
